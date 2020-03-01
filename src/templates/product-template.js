@@ -9,6 +9,7 @@ export default function({ data }) {
   const { fluid } = data.contentfulProduct.image
   return (
     <Layout>
+      <h1 style={{ color: "red" }}>Single Product Template</h1>
       <Img fluid={fluid} />
       <h1>
         {title}
